@@ -11,7 +11,7 @@ public final class IndexResource {
 
     @GET
     public Response get() {
-        return Response.ok("<html><head></head><body><p>Hello</p></body></html").build();
+        return Response.ok("<html><head></head><body><p>Hello</p></body></html>").build();
     }
 
     @GET
